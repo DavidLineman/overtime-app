@@ -3,7 +3,7 @@
 Key Requirement: company need documentation that salaried employees did or did not gt overtime each week
 
 Post -> date:date rationale:text
-User -> Devise
+x User -> Devise
 AdminUser -> STI
 
 Features: 
@@ -15,4 +15,4 @@ Needs to be documented if employee did not log overtime
 
 ##Ui -> formatting
 
--Bootstrap
+-Bootstrap -> Formatting
