@@ -4,7 +4,7 @@ Key Requirement: company need documentation that salaried employees did or did n
 
 Post -> date:date rationale:text
 x User -> Devise
-AdminUser -> STI
+x AdminUser -> STI
 
 Features: 
 Approval Workflow
@@ -13,6 +13,6 @@ Administrative admin dashboard
 Email summary to manager for approval
 Needs to be documented if employee did not log overtime
 
-##Ui -> formatting
+## Ui -> formatting
 
 -Bootstrap -> Formatting
