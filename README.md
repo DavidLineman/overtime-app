@@ -17,7 +17,7 @@
 
 ## Ui -> formatting
 
--Bootstrap -> Formatting
+- Bootstrap -> Formatting
 
 ## Refactor TODOS: 
 - Refactor user associations integration test in post_spec
