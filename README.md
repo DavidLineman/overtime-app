@@ -26,7 +26,7 @@
 - X Add full_name method for users
 - Refactor user associations integration test in post_spec
 - Refactor posts/_form for admin user with status
-
+- Fix post_spec.rb - To use Factories
 
 ## GEMs Used: 
 
