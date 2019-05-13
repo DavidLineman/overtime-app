@@ -27,6 +27,7 @@
 - Refactor user associations integration test in post_spec
 - Refactor posts/_form for admin user with status
 - Fix post_spec.rb - To use Factories
+- Fix post_spec.rb to have correct user reference and update
 
 ## GEMs Used: 
 
