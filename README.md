@@ -19,14 +19,14 @@
 ## Ui -> formatting
 
 - X Bootstrap -> Formatting
-- Icons for Font Awesome
+- X Icons for Font Awesome
 - X Update the styles for forms
 
 ## Refactor TODOS: 
 - X Add full_name method for users
 - Refactor user associations integration test in post_spec
-- Refactor posts/_form for admin user with status
-- Fix post_spec.rb - To use Factories
+- X Refactor posts/_form for admin user with status
+- X Fix post_spec.rb - To use Factories
 - Fix post_spec.rb to have correct user reference and update
 
 ## GEMs Used: 
