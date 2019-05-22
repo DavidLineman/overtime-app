@@ -34,3 +34,10 @@
 - Adminstrate
 - Devise 
 - Bourbon
+
+## General TODOS: 
+
+- Integrate validation for phone attribute in User:
+  # No spaces or dashes
+  # exactly 10 characters 
+  # all characyters have to be a number
