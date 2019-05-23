@@ -7,10 +7,11 @@
 - x Post -> date:date rationale:text
 - x User -> Devise
 - x AdminUser -> STI
+- AuditLog
 
 ## Features: 
 - Approval Workflow
-- SMS Sending -> link to approval or overtime input
+- SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler
 - X Administrative admin dashboard
 - X Block non admin and guest users
 - Email summary to manager for approval
@@ -34,6 +35,9 @@
 - Adminstrate
 - Devise 
 - Bourbon
+- Twilio
+- dotenv
+
 
 ## General TODOS: 
 
