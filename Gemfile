@@ -76,3 +76,4 @@ gem 'pundit', '~> 2.0', '>= 2.0.1'
 gem 'font-awesome-sass', '~> 5.8.1'
 gem 'twilio-ruby', '~> 5.23.0'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'kaminari'
