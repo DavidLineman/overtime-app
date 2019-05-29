@@ -37,6 +37,7 @@
 - Bourbon
 - Twilio
 - dotenv
+- Pundit
 
 
 ## General TODOS: 
