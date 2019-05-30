@@ -32,15 +32,21 @@
 
 ## GEMs Used: 
 
-- Adminstrate
-- Devise 
+- Adminstrate - To set up administrator users
+- Devise - For User Authentication  
 - Bourbon
-- Twilio
-- dotenv
+- Twilio - for sms messaging 
+- dotenv - for password security  
 - Pundit
+- Kaminari - for pagination
 
 
-## General TODOS: 
+
+## General TODOS:  
+
+- Implement AJAX for kaminari pagination 
+
+- Fix SMS messaging, so that it is functional
 
 - Integrate validation for phone attribute in User:
   # No spaces or dashes

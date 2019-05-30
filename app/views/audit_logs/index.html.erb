@@ -24,11 +24,9 @@
       <th></th>
     </tr>
   </thead>
-  <tbody id="audit_logs">
+  <tbody>
     <%= render @audit_logs %>
     </tbody>
   </table>
 
-  <div id="paginator">
-    <%= paginate @audit_logs, remote: true, theme: 'twitter-bootstrap-4' %>
-  </div>
+    <%= paginate @audit_logs, theme: 'twitter-bootstrap-4' %>

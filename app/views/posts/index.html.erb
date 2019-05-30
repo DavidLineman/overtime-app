@@ -26,11 +26,9 @@
       <th></th>
     </tr>
   </thead>
-  <tbody id="posts">
+  <tbody>
     <%= render @posts %>
     </tbody>
   </table>
 
-  <div id="paginator">
-    <%= paginate @posts, theme: 'twitter-bootstrap-4', remote: true %>
-  </div>
+  <%= paginate @posts, theme: 'twitter-bootstrap-4'%>
