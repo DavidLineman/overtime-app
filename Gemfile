@@ -78,3 +78,4 @@ gem 'twilio-ruby', '~> 5.23.0'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'kaminari'
 gem 'bootstrap4-kaminari-views'
+gem 'rails_12factor', group: :production
