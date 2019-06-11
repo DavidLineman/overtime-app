@@ -17,6 +17,11 @@
 - X Email summary to manager for approval
 - x Needs to be documented if employee did not log overtime
 - Need to update end date when confirmed. 
+- Need to update audit log status when item is rejected.
+- X Home icon
+- Update buttons on employee homepage
+- Update buttons to include time span
+- Update button sort order on employee homepage
 
 ## Ui -> formatting
 
