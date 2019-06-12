@@ -2,6 +2,7 @@
  <% pending_approvals.each do |pending_approval| %>
   <div class="homepage-block col-md-3">
     <h4>
+    <%# I need to fix the line below. Getting an error, that says it is an empty object. %>
       <%= pending_approval.user.full_name %>
     </h4>
     <p>
