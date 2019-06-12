@@ -11,6 +11,7 @@ class AuditLog < ApplicationRecord
   private
     def set_end_date
       self.end_date = Date.today
+      
     end
 
     def set_defaults
