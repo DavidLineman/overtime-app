@@ -22,6 +22,9 @@
 - Update buttons on employee homepage
 - Update buttons to include time span
 - Update button sort order on employee homepage
+- Remover unnecessary navbar buttons for admins
+- Fix Admin dashboard bug
+- Implement Honeybadger
 
 ## Ui -> formatting
 
