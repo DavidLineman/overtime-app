@@ -22,7 +22,7 @@
 - X Update buttons on employee homepage
 - X Update buttons to include time span
 - X Update button sort order on employee homepage
-- Remover unnecessary navbar buttons for admins
+- X Remover unnecessary navbar buttons for admins
 - Fix Admin dashboard bug
 - Implement Honeybadger
 - Check on data issue and verify correct hours are being tracked.
