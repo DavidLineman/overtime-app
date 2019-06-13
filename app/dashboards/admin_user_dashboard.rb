@@ -21,6 +21,8 @@ class AdminUserDashboard < Administrate::BaseDashboard
     last_name: Field::String,
     type: Field::String,
     phone: Field::String,
+    ssn: Field::Number,
+    company: Field::String,
     created_at: Field::DateTime,
     updated_at: Field::DateTime,
   }.freeze
@@ -33,7 +35,7 @@ class AdminUserDashboard < Administrate::BaseDashboard
   COLLECTION_ATTRIBUTES = [
     :posts,
     :email,
-    :id,
+    :ssn,
     :type,
   ].freeze
 
@@ -41,7 +43,8 @@ class AdminUserDashboard < Administrate::BaseDashboard
   # an array of attributes that will be displayed on the model's show page.
   SHOW_PAGE_ATTRIBUTES = [
     :posts,
-    :id,
+    :ssn,
+    :company,
     :email,
     :phone,
     :sign_in_count,
@@ -60,10 +63,12 @@ class AdminUserDashboard < Administrate::BaseDashboard
   # an array of attributes that will be displayed
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = [
+    :ssn,
     :email,
     :password,
     :first_name,
     :last_name,
+    :company,
     :type,
     :phone,
   ].freeze
