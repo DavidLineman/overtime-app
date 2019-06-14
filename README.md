@@ -4,7 +4,7 @@
 
 
 ## Models 
-- x Post -> date:date rationale:text
+- x Post -> date:date work_performed:text
 - x User -> Devise
 - x AdminUser -> STI
 - x AuditLog
