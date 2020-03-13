@@ -70,7 +70,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'gritter', '~> 1.2'
-gem 'administrate', '~> 0.11.0'
+gem 'administrate', '~> 0.13.0'
 gem 'bourbon'
 gem 'pundit', '~> 2.0', '>= 2.0.1'
 gem 'font-awesome-sass', '~> 5.8.1'
